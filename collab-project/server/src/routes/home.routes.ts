@@ -1,11 +1,11 @@
-import { Router } from 'express'
-import { HomeController } from '../controllers/home.controller'
+import { Router } from 'express';
+import { HomeController } from '../controllers/home.controller';
 
 class HomeRoutes {
-  router = Router()
+  router = Router();
 
   constructor() {
-    this.intializeRoutes()
+    this.intializeRoutes();
   }
 
   intializeRoutes() {
